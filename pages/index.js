@@ -8,7 +8,7 @@ const HomePage = dynamic(() => import("../src/HomePage"), {
 });
 
 export default function Home() {
-  image =
+  const image =
     "https://image.winudf.com/v2/image1/Y29tLmdhcmVuYS5nYW1lLmtndGhfc2NyZWVuXzBfMTY1OTU3NzI4N18wOTg/screen-0.jpg?h=500&fakeurl=1&type=.jpg";
   const trans = {
     defaultSeo: {
