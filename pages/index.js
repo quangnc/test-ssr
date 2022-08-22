@@ -8,6 +8,8 @@ const HomePage = dynamic(() => import("../src/HomePage"), {
 });
 
 export default function Home() {
+  image =
+    "https://image.winudf.com/v2/image1/Y29tLmdhcmVuYS5nYW1lLmtndGhfc2NyZWVuXzBfMTY1OTU3NzI4N18wOTg/screen-0.jpg?h=500&fakeurl=1&type=.jpg";
   const trans = {
     defaultSeo: {
       title: "Download APK free online downloader | APKThink.com",
@@ -60,21 +62,21 @@ export default function Home() {
           description: "Open Graph Description",
           images: [
             {
-              url: "https://www.example.ie/og-image-01.jpg",
+              url: image,
               width: 800,
               height: 600,
               alt: "Og Image Alt",
               type: "image/jpeg",
             },
             {
-              url: "https://www.example.ie/og-image-02.jpg",
+              url: image,
               width: 900,
               height: 800,
               alt: "Og Image Alt Second",
               type: "image/jpeg",
             },
-            { url: "https://www.example.ie/og-image-03.jpg" },
-            { url: "https://www.example.ie/og-image-04.jpg" },
+            { url: image },
+            { url: image },
           ],
           site_name: "SiteName",
         }}
